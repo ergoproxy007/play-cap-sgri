@@ -4,6 +4,13 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
+GET     /hello      controllers.HomeController.hello(name: String = "World")
+GET     /hello/:name      controllers.HomeController.hello(name)
+POST     /sayHello      controllers.HomeController.sayHello
+GET     /sayHello      controllers.HomeController.getHello
+GET     /allHello      controllers.HomeController.allHello
+GET     /action      controllers.HomeController.verboseIndex
+GET     /concurrent/:seconds      controllers.HomeController.concurrent(seconds: Integer)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

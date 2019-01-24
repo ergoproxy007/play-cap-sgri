@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mD:\play-framework\git\play-cap-sgri\app\views\concurrent.scala.html:11:8: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m  	@if(@flash.containsKey("not-success")) {[0m
+[0m[[0m[31merror[0m] [0m[0m  	    ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\play-framework\git\play-cap-sgri\app\views\concurrent.scala.html:19:8: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m@* #concurrent-page *@[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

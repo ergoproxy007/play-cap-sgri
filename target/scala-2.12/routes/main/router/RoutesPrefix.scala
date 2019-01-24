@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:D:/play-framework/play-cap-sgri/play-cap-sgri/conf/routes
-// @DATE:Tue Jan 22 22:35:55 COT 2019
+// @SOURCE:D:/play-framework/git/play-cap-sgri/conf/routes
+// @DATE:Thu Jan 24 00:57:05 COT 2019
 
 
 package router {
